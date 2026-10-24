@@ -1,0 +1,17 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local source material and downloads (do not commit books or protected files)
+materials/
+downloads/
+*.pdf
+*.epub
+
+# Runtime artifacts
+*.log
+__pycache__/
+.pytest_cache/
